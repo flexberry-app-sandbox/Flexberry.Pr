@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Админ",
+  "name": "IISPrАдминE",
+  "className": "АдминE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pr-админ",
+      "modelProjection": "АдминE"
+    }
+  ]
+}

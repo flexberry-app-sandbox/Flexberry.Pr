@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Спр сотр",
+  "name": "IISPrСпрСотрE",
+  "className": "СпрСотрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pr-спр-сотр",
+      "modelProjection": "СпрСотрE"
+    }
+  ]
+}

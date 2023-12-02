@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pr-спр-сотр-e",
+  "editForm": "i-i-s-pr-спр-сотр-e",
+  "external": false,
+  "caption": "Спр сотр",
+  "name": "IISPrСпрСотрL",
+  "className": "СпрСотрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pr-спр-сотр",
+      "modelProjection": "СпрСотрL"
+    }
+  ]
+}

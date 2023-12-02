@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISPrАдмин",
+  "modelName": "i-i-s-pr-админ",
+  "className": "Админ",
+  "nameSpace": "IIS.Pr",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрСотр",
+      "relatedTo": "i-i-s-pr-спр-сотр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АдминE",
+      "modelName": "i-i-s-pr-админ",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "АдминL",
+      "modelName": "i-i-s-pr-админ",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

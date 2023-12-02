@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pr-админ-e",
+  "editForm": "i-i-s-pr-админ-e",
+  "external": false,
+  "caption": "Админ",
+  "name": "IISPrАдминL",
+  "className": "АдминL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pr-админ",
+      "modelProjection": "АдминL"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Pr",
+  "applicationTitle": "Pr",
+  "items": [
+    {
+      "link": null,
+      "menuName": "pr",
+      "caption": "Pr",
+      "title": "Pr",
+      "children": [
+        {
+          "link": "i-i-s-pr-спр-сотр-l",
+          "menuName": null,
+          "caption": "Спр сотр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pr-админ-l",
+          "menuName": null,
+          "caption": "Админ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pr-кар-дос-l",
+          "menuName": null,
+          "caption": "Кар дос",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

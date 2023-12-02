@@ -1,0 +1,69 @@
+﻿{
+  "name": "IISPrКарДос",
+  "modelName": "i-i-s-pr-кар-дос",
+  "className": "КарДос",
+  "nameSpace": "IIS.Pr",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерКарты",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "админ",
+      "relatedTo": "i-i-s-pr-админ",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрСотр",
+      "relatedTo": "i-i-s-pr-спр-сотр",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КарДосE",
+      "modelName": "i-i-s-pr-кар-дос",
+      "attrs": [
+        {
+          "name": "номерКарты",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КарДосL",
+      "modelName": "i-i-s-pr-кар-дос",
+      "attrs": [
+        {
+          "name": "номерКарты",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

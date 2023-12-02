@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pr-кар-дос-e",
+  "editForm": "i-i-s-pr-кар-дос-e",
+  "external": false,
+  "caption": "Кар дос",
+  "name": "IISPrКарДосL",
+  "className": "КарДосL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pr-кар-дос",
+      "modelProjection": "КарДосL"
+    }
+  ]
+}
